@@ -1,0 +1,65 @@
+/*
+	font-family: 'Roboto', sans-serif;
+*/
+
+#contenidos{
+	width: 800px;
+	height: auto;
+	margin: auto;
+	position: relative;
+		
+}
+
+
+body{
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	/*font-family: 'Roboto', sans-serif;*/
+	margin-left: 10px;
+	text-align: center;
+}
+
+header{	
+	margin-top: 66px;
+	background: rgba(255, 255, 255, 0,5);	
+}
+
+nav{
+	width: 800px;
+	height: 55px;
+	background: rgb(102, 178, 198);
+	border-radius: 10px;	
+}
+
+ul{
+	margin: auto;
+	padding-top: 4px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	background: rgb(51, 140, 160);
+	padding: 10px;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+
+/* CLASSES */
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white;text-decoration: none;}
+.menu:visited{color: white;text-decoration: none;}
+.menu:hover{color: white;text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white;text-decoration: none;}
+
+
+
