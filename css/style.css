@@ -1,9 +1,10 @@
 /*
 	font-family: 'Roboto', sans-serif;
+	font-family: 'Permanent Marker', cursive;
 */
 
 #contenidos{
-	width: 800px;
+	width: 728px;
 	height: auto;
 	margin: auto;
 	position: relative;
@@ -18,18 +19,27 @@ body{
 }
 
 h1{
-	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
 	margin-left: 10px;
-	text-align: center;
+	text-align: right;
+	color: white;
+	
 }
 
-header{	
+header{
+	width: 728px;
+	height: 90px;	
+
 	margin-top: 66px;
-	background: rgba(255, 255, 255, 0,5);	
+	background: rgba(255, 255, 255, 0,5);
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	border-radius: 5px;	
 }
 
 nav{
-	width: 800px;
+	width: 728px;
 	height: 55px;
 	background: rgb(102, 178, 198);
 	border-radius: 10px;	
@@ -41,6 +51,8 @@ ul{
 }
 
 li{
+	font-family: 'Roboto', sans-serif;
+	/*font-size: 15px;*/
 	float: left;
 	list-style-type: none;
 	background: rgb(51, 140, 160);
